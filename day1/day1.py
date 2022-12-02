@@ -49,3 +49,4 @@ for elf in elfList:
 totalElfValueList.sort(reverse=True) # sort list of values in descending order
 
 print("Total Elf Value List (sorted): ",totalElfValueList)
+print("Value of top three elves:", (totalElfValueList[0]+totalElfValueList[1]+totalElfValueList[2]))
